@@ -17,17 +17,16 @@
 
 .main-container {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  background: #1AA1AD;
+  background: url("./images/bg-pattern-top.svg") -101px -600px no-repeat,
+    url("./images/bg-pattern-bottom.svg") 750px 550px no-repeat,
+    radial-gradient(
+      circle at 0% 61%,
+      rgba(38, 180, 190, 1) 0%,
+      rgba(26, 161, 173, 1) 100%
+    );
 }
 
 .profile-container {
@@ -35,7 +34,7 @@
   flex-direction: column;
   position: relative;
   margin: 5rem auto;
-  /* border: 1px solid #ddd; */
+  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   background: #fff;
 }
@@ -130,4 +129,20 @@
 .profile-text {
   font-size: 12px;
   color: #b6b6b7;
+}
+
+@media screen and (max-width: 550px) {
+  .main-container {
+    background: url("./images/bg-pattern-top.svg") -700px -400px no-repeat,
+    url("./images/bg-pattern-bottom.svg") 250px 300px no-repeat,
+    radial-gradient(
+      circle at 0% 61%,
+      rgba(38, 180, 190, 1) 0%,
+      rgba(26, 161, 173, 1) 100%
+    );
+  }
+
+  .profile-container {
+    margin: 4rem 2rem;
+  }
 }
