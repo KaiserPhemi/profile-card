@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel='stylesheet' type="text/css" href='./index.css'/>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Profile card component</title>
-</head>
-<body class="main-container">
- <div class="profile-container"></div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/KaiserPhemi" target="_blank">KaiserPhemi</a>.
-  </div>
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body class="main-container">
+    <div class="profile-container">
+      <div class="profile-bg">
+        <img src="./images/bg-pattern-card.svg" alt="bg"/>
+      </div>
+      <div class="profile-main">
+        <img class="user-dp" src="./images/image-victor.jpg" alt="dp">
+        <div class="user-details"></div>
+      </div>
+      <div class="profile-details">
+        <section>
+          <div  class="profile-number">80K</div>
+          <div class="profile-text">Followers</div>
+        </section>
+        <section>
+          <div  class="profile-number">803K</div>
+          <div class="profile-text">Likes</div>
+        </section>
+        <section>
+          <div class="profile-number">1.4K</div>
+          <div  class="profile-text">Photos</div>
+        </section>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/KaiserPhemi" target="_blank">KaiserPhemi</a>.
+    </div>
+  </body>
 </html>
