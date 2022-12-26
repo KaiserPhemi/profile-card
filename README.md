@@ -10,11 +10,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,7 +28,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/KaiserPhemi/profile-card)
-- Live Site URL: [Profile Card](https://profile-card-kaiserphemi.vercel.app/)
+- Live Site URL: [Profile Card](https://profile-card-phemi.vercel.app/)
 
 ## My process
 
